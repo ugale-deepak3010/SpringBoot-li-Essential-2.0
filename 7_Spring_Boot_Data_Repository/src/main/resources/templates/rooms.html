@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hotel | Rooms</title>
+</head>
+<body>
+	<h1>Welcome to Room Details</h1>
+	<table>
+		<thead>
+			<th>Room Number</th>
+			<th>Room Name</th>
+			<th>Room Info</th>
+		</thead>
+		<tbody>
+			<tr th:each="rooms:${rooms}" >
+				<td th:text="${rooms.number}" >number</td>
+				<td th:text="${rooms.name}" >name</td>
+				<td th:text="${rooms.info}" >info</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

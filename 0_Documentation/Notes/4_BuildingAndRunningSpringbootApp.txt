@@ -1,0 +1,81 @@
+
+---------	Building		----------
+
+Build using dependency manager
+
+1. Maven 		= cmd=	maven clean package
+2. Gradle		= cmd=	build
+3. Build Script
+
+Executable Jar or War
+
+Josh Long coined the phrase "Make Jar not War"
+
+-----------		Running Jar Files	------------
+
+Fat Jar
+Spring Boot Jar file is self-executable 
+can be deploy on container.
+
+init.d or systemd registrations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

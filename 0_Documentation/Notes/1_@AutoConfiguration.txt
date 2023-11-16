@@ -1,0 +1,50 @@
+
+
+
+-----------	@AutoConfiguration 			----
+
+
+@AutoConfiguration is heart of Spring boot project
+Allow configuration classes to scan dynamically.
+Often based off Jars loaded into classpath.
+
+
+
+Driven Off Spring.factories
+@AutoConfigurationBefore 
+@AutoConfigurationAfter
+
+
+-------------	Conditional Loading	----------------
+
+@ConditionalOnClass
+@ConditionalOnBean
+@ConditionalOnProperty
+@ConditionalOnMissingBean
+
+Application Types base Annotations: Web App, Non-WebApp
+Resources (or Files) based 
+Expression based configuration 
+
+-------------	Properties	--------------------
+
+PreConfigured
+
+Preconfiguered default properties for @AutoConfiguraton classes
+
+@EnableConfigurationProperties 
+
+specify the default property set.
+Those properties are always overridden 
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+
+
+
+	application.properties or application.yaml
+
+Usage:
+
+Basic configuration
+Development Focus (or Demo purpose)
+
+because on prod server there is many varience type setting. like AWS, Azure have different settings.. 
+
+
+----------  
+
+Envornment variable
+command line parameter (less use on prod)
+Cloud Configuration (i.e: Config-Server, Consul)		More Powerful
+
+------------	Bean Configuration	----------------
+Application Context
+
+Adding Beans is to the Simple and default application class.
+Adding Beans to Sepearate configuration classes.
+Import XML based configuration.
+Component Scanning
+
+--------------------------------------------------
+example
+
+application.properties
+server.port=8081
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

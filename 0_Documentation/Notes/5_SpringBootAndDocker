@@ -1,0 +1,98 @@
+
+
+		Spring Boot & Docker
+		
+
+Docker images are most common build packages applications.
+
+-----------		Build plug in		-----------
+
+Built-in plug-in for build script.
+
+Spring-Boot:build-image				for Maven
+bootBuildImage						for Gradle
+
+---------	Raw Docker Build Process -------------
+
+More control		cicd pipelines
+Smaller Image
+Approved base image
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

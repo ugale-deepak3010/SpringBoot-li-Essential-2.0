@@ -1,0 +1,15 @@
+
+
+Challenge:
+	
+	Build Staff View.  						(All Staff, Their Position, Employee Number)
+	Simple page with a table of all Staff.
+	Create three or four mock data elements.
+	Staff elements: 	
+		Employee Id number (GUID),
+		first name,
+		last name,
+		position (Housekeeping, front desk, security, etc )
+		
+		Refer CH02\02_05\02_05_begin\spring-boot-et\bin\data.sql
+	

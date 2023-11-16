@@ -1,0 +1,120 @@
+
+
+
+	Auto Configuration 
+
+@EnableAutoConfiguration.
+
+Driven Off from Spring.Factories
+
+@AutoConfigureBefore and ..After
+
+
+
+--------------
+
+	Conditional Loading
+	
+	@ConditionalOnClass
+				OnBean
+				OnProperty
+				
+				OnMissingClass
+--------------------------
+
+	Property based configuration 
+	
+	Envirnment variable is used to modify the env
+	Envornment variable
+command line parameter (less use on prod)
+Cloud Configuration (i.e: Config-Server, Consul)		More Powerful
+	
+	
+	----------
+	
+	Bean Based configuration
+	
+	Bean Configuration
+	
+	adding beans in default classes.
+	Adding beans in seprate configuration classes
+	import xml based configuration 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

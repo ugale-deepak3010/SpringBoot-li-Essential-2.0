@@ -1,0 +1,69 @@
+Reference 2_StartUsingProfile Project
+====================================================
+
+-------------- Why Profiles?	-----------------
+
+Flex Configuration based on environment profile.
+Valueable in real world, multi envirnment deployments.
+Live vs cold prod domain.
+
+------------ application.yaml 	-----------------
+
+Spring boot provide application.yaml support natively.
+Allow properties to flex by profile, among other things.
+spring.profiles is key for profile support.
+Other ways to trigger configuration based on profile.
+
+
+Steps 1.	application.yaml
+spring:
+  config:
+    activate:
+      on-profile: dev
+server:
+  port: 8062
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+server:
+  port: 8089
+  
+
+Step 2 application.yaml or application.properties
+
+spring.profiles.active=test
+
+Spring boot will start on port 8089
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

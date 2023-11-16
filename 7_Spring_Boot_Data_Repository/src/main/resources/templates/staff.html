@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>Welcome to Staff Data</h1>
+
+<table>
+	<thead>
+		<th>Employee Id</th>
+		<th>Fist Name</th>
+		<th>Last Name</th>
+		<th>Position</th>
+	</thead>
+	<tbody>
+		<tr th:each="staff:${staff}">
+			<td th:text="${staff.employeeId}" >emp id</td>
+			<td th:text="${staff.firsName}" > first name</td>
+			<td th:text="${staff.lastName}" > last name</td>
+			<td th:text="${staff.position}" >Position</td>
+		</tr>
+	</tbody>
+</table>
+
+</body>
+</html>
